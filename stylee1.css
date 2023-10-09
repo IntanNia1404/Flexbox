@@ -1,0 +1,64 @@
+*::before, *::after {
+    box-sizing: border-box ;
+}
+.body {
+   background-color: antiquewhite;
+}
+.header{
+    background-color: moccasin;
+    text-align: center;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+nav{
+    background-color:sienna;
+    padding: 20px;
+}
+.Logojordan{
+    width: 100px;
+    height: auto;
+    
+}
+.subNav{
+    background-color:peru;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    gap: 50px;
+}
+.containt-Tile{
+    background-color:peru;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    gap: 20px;
+}
+.from input{
+    width: 300px;
+    height: 50px;
+    margin: 100px 40%;
+}
+.content{
+    background-color: bisque;
+}
+.container{
+    left: 650px;
+    bottom: 70px;
+}
+.nav{
+    background-color:darksalmon;
+    
+}
+.footer{
+    margin: 0;
+    border: 10px;
+    box-sizing: border-box;
+    background-color:darksalmon;
+}
